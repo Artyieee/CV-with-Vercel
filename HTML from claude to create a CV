@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .job-date {
+            color: #7f8c8d;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/api/placeholder/150/150" alt="Your Photo" style="border-radius: 50%;">
+        <h1>Your Name</h1>
+        <div class="contact-info">
+            <span>📧 email@example.com</span>
+            <span>📱 (123) 456-7890</span>
+            <span>📍 City, Country</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Summary</h2>
+        <p>A passionate professional with X years of experience in [Your Field]. Skilled in [Key Skill 1], [Key Skill 2], and [Key Skill 3]. Committed to delivering high-quality results and continuous learning.</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="job">
+            <div class="job-title">Senior Position - Company Name</div>
+            <div class="job-date">January 2020 - Present</div>
+            <ul>
+                <li>Accomplished [specific achievement] resulting in [measurable outcome]</li>
+                <li>Led a team of X people to deliver [project or outcome]</li>
+                <li>Implemented [specific initiative] which improved [metric] by X%</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-title">Previous Position - Company Name</div>
+            <div class="job-date">March 2017 - December 2019</div>
+            <ul>
+                <li>Developed and maintained [specific system or process]</li>
+                <li>Collaborated with cross-functional teams to achieve [goal]</li>
+                <li>Recognized for [specific achievement or award]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="job">
+            <div class="job-title">Degree Name - University Name</div>
+            <div class="job-date">Graduation Year</div>
+            <p>Relevant coursework: [Course 1], [Course 2], [Course 3]</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technical Skills:</strong> [Skill 1], [Skill 2], [Skill 3]</li>
+            <li><strong>Soft Skills:</strong> [Skill 1], [Skill 2], [Skill 3]</li>
+            <li><strong>Languages:</strong> [Language 1 (Proficiency)], [Language 2 (Proficiency)]</li>
+        </ul>
+    </section>
+</body>
+</html>
